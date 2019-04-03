@@ -38,5 +38,7 @@ node {
        
        echo 'deploy is done '
    }
-   
+   stage('build is over'){
+       
+       echo 'deploy is over '
 }
