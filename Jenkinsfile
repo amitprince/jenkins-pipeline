@@ -34,6 +34,9 @@ node {
        
        echo 'deploy into prod-evn'
    }
-   
+    stage('build is seccess'){
+       
+       echo 'deploy is done '
+   }
    
 }
